@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #180202;
+}
+nav{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+#idade{
+    margin: 10px;
+    display: flex;
+}
+#foto{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    margin: auto;
+    margin-top: 10px;
+    background: #000;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+#foto1{
+    height: 200px;
+    margin: auto;
+    background: #b3aa09;
+}
+#res{
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px 0 5px 0;
+    text-align: center;
+    color: #fff;
+}
