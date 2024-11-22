@@ -4,17 +4,38 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #180202;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,30,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 nav{
-    background: #000;
     color: #fff;
     text-align: center;
     padding: 10px;
 }
+#teste{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background: #090979;
+    border-radius: 10px;
+    border: 1px solid #00d4ff;
+}
+.teste1{
+    flex: 45%;
+    color: #fff;
+    margin-left: 10px;
+    padding: 5px;
+}
 #idade{
     margin: 10px;
     display: flex;
+    flex-wrap: wrap;
+}
+.quadrado{
+    background: blue;
+    border: 1px solid #00d4ff;
+    padding: 10px;
+    border-radius: 5px 0 5px 0;
+    color: #fff;
 }
 #foto{
     display: flex;
@@ -22,9 +43,8 @@ nav{
     margin: 5%;
     margin: auto;
     margin-top: 10px;
-    background: #000;
     padding: 10px;
-    border: 2px solid #fff;
+    border: 2px solid #00d4ff;
     border-radius: 10px;
 }
 #foto1{
@@ -39,4 +59,16 @@ nav{
     border-radius: 5px 0 5px 0;
     text-align: center;
     color: #fff;
+}
+footer{
+    background: #00d4ff;
+    padding: 20px;
+    color: #fff;
+    border-top: 2px solid blue;
+    margin-top: 20px;
+}
+a{
+   color: #fff; 
+   display: inline-block;
+   margin-top: 5px;
 }
