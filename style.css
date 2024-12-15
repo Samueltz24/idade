@@ -46,6 +46,7 @@ nav{
     color: var(--cor4);
     cursor: pointer;
     margin-left: 2%;
+    margin-top: 7px;
 }
 #foto{
     display: flex;
