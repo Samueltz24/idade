@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Bungee+Spice&family=DM+Serif+Text:ital@0;1&family=Delius&family=Limelight&family=Nosifer&family=Rubik+Glitch&family=Tektur:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--cor5);
+}
+:root{
+    --cor1: #243010;
+    --cor2: #87A330;
+    --cor3: #A1C349;
+    --cor4: #CAD593;
+    --cor5: #2A3C24;
+    --font1: "Nosifer", sans-serif;
+    --font2: "Bruno Ace SC", sans-serif;
+    --font3: "Delius", cursive;
+}
+nav{
+    background: var(--cor1);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font2);
+}
+.mf{
+    font-family: var(--font1);
+}
+#teste{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 2%;
+    background: var();
+    border-radius: 10px;
+    border: 1px solid #66ff00;
+    width: 100%;
+}
+.teste1{
+    display: flex;
+    flex: 20%;
+    color: #fff;
+    padding: 5px;
+}
+#idade{
+    margin: 10px 2%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid var(--cor2);
+    width: 90%;
+}
+.quadrado{
+    background: var(--cor2);
+    border: 1px solid var(--cor2);
+    padding: 10px;
+    border-radius: 5px 0 5px 0;
+    color: var(--cor4);
+    cursor: pointer;
+    margin-left: 2%;
+    margin-top: 7px;
+}
+#foto{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    margin: auto;
+    margin-top: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#foto1{
+    height: 200px;
+    margin: auto;
+    background: #b3aa09;
+}
+#res{
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px 0 5px 0;
+    text-align: center;
+    color: #fff;
+}
+footer{
+    background: var(--cor1);
+    padding: 20px;
+    color: #fff;
+    border-top: 2px solid blue;
+    margin-top: 40px;
+    font-family: var(--font3);
+}
+a{
+   color: #fff; 
+   display: inline-block;
+   margin-top: 5px;
+}
+.curso{
+    cursor: pointer;
+}
+.t{
+    margin-left: 2%;
+    display: flex;
+}
+.tes{
+    flex: 50%;
+    margin-left: 10px;
+}
+.tes1{
+    flex: 50%;
+}

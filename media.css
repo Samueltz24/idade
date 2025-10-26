@@ -1,0 +1,26 @@
+@media (min-width: 600px) and (max-width: 900px) {
+    #foto{
+        margin-top: 5%;
+    }
+    footer{
+        margin-top: 75px;
+    }
+    #foto1{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media (min-width: 1200px) {
+    #foto{
+        margin-top: 6%;
+    }
+    #foto1{
+        height: 300px;
+        width: 300px;
+    }
+    .quadrado{
+        width: 200px;
+        margin: 10px 0;
+    }
+
+}
