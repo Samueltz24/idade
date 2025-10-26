@@ -45,7 +45,7 @@ nav{
     padding: 5px;
 }
 #idade{
-    margin: 10px 2%;
+    margin: 10px 3%;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid var(--cor2);
@@ -73,7 +73,6 @@ nav{
 #foto1{
     height: 200px;
     margin: auto;
-    background: #b3aa09;
 }
 #res{
     width: 200px;
@@ -88,13 +87,21 @@ footer{
     padding: 30px;
     color: #fff;
     border-top: 2px solid blue;
-    margin-top: 40px;
+    margin-top: 20px;
+    padding-bottom: 30px;
     font-family: var(--font3);
 }
-a{
-   color: #fff; 
-   display: inline-block;
-   margin-top: 5px;
+#link{
+    background: var(--cor4);
+    width: 80px;
+    padding: 10px 0;
+    text-align: center;
+    color: var(--cor5); 
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 3px solid var(--cor1);
+
 }
 .curso{
     cursor: pointer;
